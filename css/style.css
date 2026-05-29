@@ -2,9 +2,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url("../images/home.gpg.jpg");
+    background-image: url("../images/home.jpg") no-repeat centre fixed;
     background-size: cover;
-    color: #333
+    color: #333;
 }
 
 /* Overlay for readability */
