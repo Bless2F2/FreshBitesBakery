@@ -51,7 +51,7 @@ tr:hover{
    max-width: 600px;
    width: 90%;
    border-radius: 8px;
-   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 /* Headings and text */
@@ -78,18 +78,24 @@ img {
 }
 
 /* Tables */
-.table-wrappper{
+.table-wrapper{
     margin-top: 30px;
 }
 table {
     width: 100%;
+    background: #fff8f0; /* cream background */
+    border-left: 4px solid #d4a373; /* brown accent line*/
     border-collapse: collapse;
     margin-top: 15px;
+    border-radius: 6px;
+    overflow: hidden;
 }
 td, th {
-    border: 1px solid #ccc;
-    padding: 12px;
+    border: none; /* remove grid lines*/
+    padding: 15px;
     text-align: center;
+    font-style: italic;
+    color: #5a3e2b;
 }
 th {
     background-color: #6b3e26;
