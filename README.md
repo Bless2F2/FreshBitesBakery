@@ -21,6 +21,7 @@ Fresh Bites Bakery is a responsive website showcasing cupcakes, bread, and baker
 - Google Maps embed on contact page
 - Gallery lightbox functionality 
 - Enquiry form validation
+- Contact form validation
 - SEO: Descriptive alt text added to all images
 
 ## GitHub
