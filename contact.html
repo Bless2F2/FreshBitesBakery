@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Fresh Bites Bakery </title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Contact Us - Fresh Bites Bakery | Johannesburg Bakery Phone & Address</title>
+  <meta name="description" content="Contact Fresh Bites Bakery Johannesburg. Call 081 847 3074, email info@freshbitesbakery.co.za, visit 12 Main Street. Open Mon-Sat 7am-6pm.">
+  <meta name="keywords" content="Fresh Bites Bakery contact, bakery phone number, bakery address Johannesburg, bakery hours Soweto, contact artisan bakery">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+
 </head>
 <body>
             <div class="overlay">
@@ -18,15 +22,43 @@
                 </nav>
               
                 <div class="welcome-box">
-                <h1>Contact Us</h1>
+                <h1>Fresh Bites Bakery</h1>
                 <img src="images/shop1.jpg" alt="500">
 
-               <!--contact us here-->
-                <p><strong>Phone:</strong> 081 047 3074</p>
-                <p><strong>Email:</strong> info@freshbitesbakery.co.za </p>
-                <p><strong>Address:</strong> 12 Main Street,Johannesburg</p>
+                <h1>Send us a message here:</h1>
+
+<form id="contactForm">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+  <button type="submit">Send Message</button>
+</form>
+
+<p id="successMsg" style="display:none; color:green; font-weight:bold; margin-top:15px;"></p>
                 </div>
 
+<section class="map-section">
+  <h2>Find Us Here:</h2>
+  <div class="map-container">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.7403177789033!2d28.054050875174628!3d-26.205124477076005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950e85a0ed19bd%3A0x5b4a9cadedb7b9cc!2sMain%20St%2C%20Johannesburg!5e0!3m2!1sen!2sza!4v1781811282718!5m2!1sen!2sza" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+  <div class="contact-info">
+    <p><strong>Address:</strong> 124 Main St, Johannesburg, 2000</p>
+    <p><strong>Hours:</strong> Mon-Fri 9am-5pm | Sat 9am-1pm</p>
+  </div>
+</section>
                           
            <footer> <!--Footer goes here,outside welcome-box-->
              <hr>
