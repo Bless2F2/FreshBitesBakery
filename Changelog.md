@@ -1,3 +1,12 @@
+
+## [Part 3] - 18 june 2026
+### Added
+- JavaScript form validation for contact + enquiry forms
+- Google Maps embed showing bakery location  
+- Lightbox gallery for product images
+- Success/error messages on form submission
+- SEO: Descriptive alt text added to all images
+
 ## v1.2 - 2026-10-04
 - Fixed footer visibility on mobile and desktop
 - Linked external stylesheet correctly in products.html
