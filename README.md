@@ -16,6 +16,17 @@ Fresh Bites Bakery is a responsive website showcasing cupcakes, bread, and baker
 - CSS3
 - Responsive design with `welcome-box` container
 
+  ## Part 3 Features Added
+- JavaScript contact form validation with error/success messages
+- Google Maps embed on contact page
+- Gallery lightbox functionality 
+- Enquiry form validation
+- SEO: Descriptive alt text added to all images
+
+## GitHub
+**Commits:** 17 commits showing Part 1 → Part 3 development  
+**Repo:** https://github.com/Bless2F2/FreshBitesBakery
+
 ### **How to view**
 Just open `index.html` in your browser. No setup needed.
 
